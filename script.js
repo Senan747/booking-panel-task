@@ -471,7 +471,7 @@ const sendService = (id) => {
 const sendInput = (array) => {
   selectedData.push([{ "name": array[0] }, { "surname": array[1] }, {"email": array[2]}, {"phone": array[3]}]);
 };
-
+ 
 const sendDate = (date) => {
   selectedData.push({"date": date})
 }
