@@ -144,7 +144,7 @@ function validateCurrentPage() {
       }, 3000);
       return false;
     }
-  } else if (currentPageIndex === 3 || Completed.style.display === "block") {
+  } else if (currentPageIndex === 3 && Completed.style.display === "block") {
     nextButton.style.display = "none";
     backButton.style.display = "none";
   }
