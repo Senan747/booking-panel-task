@@ -11,7 +11,7 @@ body {
 }
 .containers {
   background-color: #f5f7fa;
-  width: 980px;
+  width: 980px; 
   height: 560px;
   display: flex;
   flex-direction: row;
@@ -415,13 +415,12 @@ li {
   justify-content: center;
 }
 
-.alert span{
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
-  color: #F39C12;
-}
+
 .completed .completed-icon{
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+.alert .alert-icon{
   margin-bottom: 50px;
   cursor: pointer;
 }
@@ -432,6 +431,13 @@ li {
   font-size: 18px;
   line-height: 27px;
   color: #38CF78;
+}
+.alert span{
+  margin-top: 60px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #F39C12;
 }
 
 .to {
